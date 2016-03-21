@@ -1,0 +1,19 @@
+{
+  "name" : "HTTP::Client::Async",
+  "source-url" : "git://github.com/skaji/perl6-HTTP-Client-Async.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "provides" : {
+    "HTTP::Client::Async" : "lib/HTTP/Client/Async.pm6"
+  },
+  "depends" : [
+    "URI"
+  ],
+  "description" : "learning perl6 asynchronous programming",
+  "test-depends" : [ ],
+  "version" : "*",
+  "authors" : [
+    "Shoichi Kaji"
+  ]
+}
